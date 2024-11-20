@@ -36,7 +36,7 @@ def get_avg_salary_by_job_title(employee_salary_df: pd.DataFrame, selected_title
     
     #Plot the graph
     st.subheader("Average Salary by Job Title")
-    st.bar_chart(avg_salary_by_job_title, x = 'Job', y = 'YearlyCompensation')
+    st.bar_chart(avg_salary_by_job_title, x = 'JobTitle', y = 'YearlyCompensation')
 
 
 #TODO: MAKE THIS USING THE MODEL FUNCTION ABOVE (Copy pasting is your friend here)
